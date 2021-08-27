@@ -13,7 +13,7 @@
             "children": [
               {
                 "command": "SetIcon",
-                "expression": "\"woman1.svg\"",
+                "expression": "\"user.svg\"",
                 "widgetName": "image1"
               }
             ],
@@ -24,7 +24,7 @@
             "children": [
               {
                 "command": "SetIcon",
-                "expression": "\"man1.svg\"",
+                "expression": "\"user.svg\"",
                 "widgetName": "image1"
               }
             ],
