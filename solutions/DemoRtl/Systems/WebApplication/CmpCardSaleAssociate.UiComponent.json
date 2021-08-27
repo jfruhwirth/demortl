@@ -1,0 +1,262 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "ReadModel",
+            "modelVariableName": "data",
+            "variableName": "data"
+          },
+          {
+            "children": [
+              {
+                "command": "SetIcon",
+                "expression": "\"woman1.svg\"",
+                "widgetName": "image1"
+              }
+            ],
+            "command": "If",
+            "expression": "^data.gender == \"Female\""
+          },
+          {
+            "children": [
+              {
+                "command": "SetIcon",
+                "expression": "\"man1.svg\"",
+                "widgetName": "image1"
+              }
+            ],
+            "command": "Else"
+          },
+          {
+            "command": "Load",
+            "expression": "[\"[[Sales]]\", \"[[Information]]\"]",
+            "widgetName": "optiongroup1"
+          },
+          {
+            "command": "SetValue",
+            "expression": "\"[[Sales]]\"",
+            "widgetName": "optiongroup1"
+          },
+          {
+            "command": "Hide",
+            "widgetName": "infoTab"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": [
+          {
+            "name": "data",
+            "type": "Data"
+          }
+        ]
+      },
+      "name": "main_init"
+    },
+    {
+      "algorithm": {
+        "parameters": [
+          {
+            "name": "oldValue",
+            "type": "any"
+          },
+          {
+            "name": "newValue",
+            "type": "any"
+          }
+        ],
+        "statements": [
+          {
+            "children": [
+              {
+                "command": "Show",
+                "widgetName": "infoTab"
+              },
+              {
+                "command": "Hide",
+                "widgetName": "salesTab"
+              }
+            ],
+            "command": "If",
+            "expression": "^newValue == \"[[Information]]\""
+          },
+          {
+            "children": [
+              {
+                "command": "Show",
+                "widgetName": "salesTab"
+              },
+              {
+                "command": "Hide",
+                "widgetName": "infoTab"
+              }
+            ],
+            "command": "Else"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "optiongroup1_change"
+    }
+  ],
+  "model": [
+    {
+      "name": "data",
+      "required": false,
+      "type": "Data"
+    }
+  ],
+  "root": {
+    "children": [
+      {
+        "align": "center",
+        "binding": "data.name",
+        "bold": true,
+        "cssClass": "blz-padding-top-small blz-padding-bottom-large",
+        "name": "field2",
+        "size": "large",
+        "widget": "Field"
+      },
+      {
+        "align": "left",
+        "attribute": {
+          "clickable": null,
+          "color": null,
+          "icon": "person.svg",
+          "name": "image1",
+          "securityOption": "",
+          "size": "xx-large"
+        },
+        "dock": "next",
+        "icon": "person.svg",
+        "name": "image1",
+        "size": "xx-large",
+        "widget": "Icon"
+      },
+      {
+        "children": [
+          {
+            "alignItems": "right",
+            "children": [
+              {
+                "bold": true,
+                "color": "default",
+                "icon": "map.svg",
+                "name": "label2",
+                "text": "عنوان:",
+                "widget": "Label"
+              },
+              {
+                "bold": true,
+                "color": "default",
+                "icon": "phone.svg",
+                "name": "label3",
+                "text": "هاتف:",
+                "widget": "Label"
+              },
+              {
+                "bold": true,
+                "color": "default",
+                "icon": "id.svg",
+                "name": "label4",
+                "text": "الحساب:",
+                "widget": "Label"
+              }
+            ],
+            "cssClass": "blz-area-default",
+            "layout": "container",
+            "size": "third"
+          },
+          {
+            "children": [
+              {
+                "binding": "data.location",
+                "name": "field4",
+                "widget": "Field"
+              },
+              {
+                "binding": "data.phone",
+                "name": "field5",
+                "widget": "Field"
+              },
+              {
+                "binding": "data.id",
+                "name": "field6",
+                "widget": "Field"
+              }
+            ],
+            "cssClass": "blz-area-default",
+            "layout": "container",
+            "size": "5/12"
+          },
+          {
+            "children": [
+              {
+                "align": "right",
+                "color": "info",
+                "name": "button4",
+                "size": "small",
+                "text": "Edit",
+                "widget": "Button"
+              }
+            ],
+            "layout": "container",
+            "size": "quarter"
+          }
+        ],
+        "cssClass": "blz-area-default",
+        "layout": "container"
+      },
+      {
+        "alignItems": "center",
+        "children": [
+          {
+            "cssClass": "blz-area-default",
+            "dataFormat": "plain",
+            "display": "toggle",
+            "mode": "single",
+            "name": "optiongroup1",
+            "widget": "OptionGroup"
+          },
+          {
+            "children": [
+              {
+                "align": "center",
+                "bold": true,
+                "color": "default",
+                "cssClass": "blz-padding-top-large blz-padding-bottom-large",
+                "italic": true,
+                "name": "salesTab",
+                "size": "default",
+                "text": "مبيعات",
+                "widget": "Label"
+              },
+              {
+                "align": "center",
+                "bold": true,
+                "color": "default",
+                "cssClass": "blz-padding-top-large blz-padding-bottom-large",
+                "italic": true,
+                "name": "infoTab",
+                "size": "default",
+                "text": "معلومة",
+                "widget": "Label"
+              }
+            ],
+            "cssClass": "blz-area-default",
+            "layout": "container"
+          }
+        ],
+        "cssClass": "blz-padding-top-large blz-area-default",
+        "layout": "container"
+      }
+    ],
+    "cssClass": "blz-padding-top-large blz-padding-right-large blz-padding-left-large blz-padding-bottom-large blz-area-default",
+    "layout": "container"
+  },
+  "routing": null,
+  "unused": []
+}

@@ -1,0 +1,138 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "Refresh",
+            "widgetName": "grid1"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "main_init"
+    },
+    {
+      "algorithm": {
+        "parameters": [
+          {
+            "name": "args",
+            "type": "ArgsLoadRecords"
+          }
+        ],
+        "statements": [
+          {
+            "command": "Return",
+            "expression": "[{name:\"Ardenia\",surname:\"Juckes\",email:\"ajuckes0@facebook.com\",gender:\"[[Female]]\",salary:\"547.64\",presenteeism:4.29,birthday:\"12/06/2019\",expiration:\"2020-01-31T10:12:37Z\", enabled: false},\n    {name:\"Fergus\",surname:\"Birk\",email:\"fbirk1@nhs.uk\",gender:\"[[Male]]\",salary:\"854.04\",presenteeism:77.38,birthday:\"14/02/2020\",expiration:\"2019-09-10T18:23:42Z\", enabled: false},\n    {name:\"Merridie\",surname:\"Molesworth\",email:\"mmolesworth2@army.mil\",gender:\"[[Female]]\",salary:\"248.06\",presenteeism:64.82,birthday:\"04/08/2019\",expiration:\"2019-07-07T04:42:29Z\", enabled: false},\n    {name:\"Jorgan\",surname:\"L'Homme\",email:\"jlhomme3@goodreads.com\",gender:\"[[Male]]\",salary:\"39.90\",presenteeism:45.86,birthday:\"21/06/2019\",expiration:\"2020-04-24T12:55:11Z\", enabled: false},\n    {name:\"Colby\",surname:\"Fedoronko\",email:\"cfedoronko5@umich.edu\",gender:\"[[Male]]\",salary:\"907.38\",presenteeism:28.19,birthday:\"23/02/2020\",expiration:\"2019-06-06T08:47:56Z\", enabled: false},\n    {name:\"Elwyn\",surname:\"Glaysher\",email:\"eglaysher6@mashable.com\",gender:\"[[Male]]\",salary:\"32.07\",presenteeism:31.43,birthday:\"19/01/2020\",expiration:\"2020-01-20T05:23:20Z\", enabled: false},\n    {name:\"Devan\",surname:\"Elen\",email:\"delen7@slideshare.net\",gender:\"[[Female]]\",salary:\"76.85\",presenteeism:96.65,birthday:\"02/11/2019\",expiration:\"2019-08-22T17:51:48Z\", enabled: false},\n    {name:\"Beckie\",surname:\"Creighton\",email:\"bcreighton8@chicagotribune.com\",gender:\"[[Female]]\",salary:\"137.81\",presenteeism:38.7,birthday:\"22/12/2019\",expiration:\"2020-04-01T15:41:18Z\", enabled: false},\n    {name:\"Elmer\",surname:\"Boyen\",email:\"eboyenb@whitehouse.gov\",gender:\"[[Male]]\",salary:\"533.83\",presenteeism:24.61,birthday:\"05/01/2020\",expiration:\"2020-04-06T14:58:05Z\", enabled: true},\n    {name:\"Tedd\",surname:\"Griffen\",email:\"tgriffenc@redcross.org\",gender:\"[[Male]]\",salary:\"942.24\",presenteeism:68.5,birthday:\"19/11/2019\",expiration:\"2019-10-17T17:12:14Z\", enabled: true},\n    {name:\"Michael\",surname:\"Darwent\",email:\"mdarwentd@netlog.com\",gender:\"[[Male]]\",salary:\"488.33\",presenteeism:20.77,birthday:\"18/01/2020\",expiration:\"2019-12-31T03:46:20Z\", enabled: true},\n    {name:\"Tamar\",surname:\"Ainge\",email:\"taingee@dot.gov\",gender:\"[[Female]]\",salary:\"730.16\",presenteeism:9.82,birthday:\"03/09/2019\",expiration:\"2020-01-01T14:05:20Z\", enabled: true},\n    {name:\"Sven\",surname:\"Exeter\",email:\"sexeterg@ted.com\",gender:\"[[Male]]\",salary:\"50.25\",presenteeism:1.22,birthday:\"19/11/2019\",expiration:\"2020-04-27T04:00:29Z\", enabled: true},\n    {name:\"Etheline\",surname:\"Burburough\",email:\"eburburoughh@about.me\",gender:\"[[Female]]\",salary:\"588.85\",presenteeism:40.2,birthday:\"08/11/2019\",expiration:\"2020-02-15T00:33:53Z\", enabled: true},\n    {name:\"Silvia\",surname:\"Duell\",email:\"sduelli@washingtonpost.com\",gender:\"[[Female]]\",salary:\"910.44\",presenteeism:20.51,birthday:\"17/01/2020\",expiration:\"2020-03-01T00:06:50Z\", enabled: true},\n    {name:\"Faina\",surname:\"Roxburgh\",email:\"froxburghk@marketwatch.com\",gender:\"[[Female]]\",salary:\"555.61\",presenteeism:47.99,birthday:\"20/09/2019\",expiration:\"2020-01-22T00:40:53Z\", enabled: true},\n    {name:\"Christyna\",surname:\"Ace\",email:\"cacel@hp.com\",gender:\"[[Female]]\",salary:\"74.50\",presenteeism:8.3,birthday:\"15/12/2019\",expiration:\"2019-08-03T08:24:53Z\", enabled: true},\n    {name:\"Waiter\",surname:\"Camplin\",email:\"wcamplinm@newyorker.com\",gender:\"[[Male]]\",salary:\"302.96\",presenteeism:83.29,birthday:\"18/01/2020\",expiration:\"2020-03-23T09:33:16Z\", enabled: true},\n    {name:\"Lexis\",surname:\"Briskey\",email:\"lbriskeyo@facebook.com\",gender:\"[[Female]]\",salary:\"625.20\",presenteeism:42.46,birthday:\"04/08/2019\",expiration:\"2019-09-29T00:49:03Z\", enabled: true},\n    {name:\"Fiann\",surname:\"Coon\",email:\"fcoonp@statcounter.com\",gender:\"[[Female]]\",salary:\"846.90\",presenteeism:42.43,birthday:\"09/08/2019\",expiration:\"2020-02-04T07:15:07Z\", enabled: true},\n    {name:\"Chase\",surname:\"Ateggart\",email:\"categgartq@sina.com.cn\",gender:\"[[Male]]\",salary:\"579.25\",presenteeism:46.66,birthday:\"13/10/2019\",expiration:\"2019-09-18T22:15:11Z\", enabled: true},\n    {name:\"Bernadene\",surname:\"Stainfield\",email:\"bstainfieldr@imdb.com\",gender:\"[[Female]]\",salary:\"916.01\",presenteeism:89.79,birthday:\"04/02/2020\",expiration:\"2019-06-05T19:00:03Z\", enabled: true},\n    {name:\"Kaleena\",surname:\"Deverill\",email:\"kdeverillt@meetup.com\",gender:\"[[Female]]\",salary:\"295.53\",presenteeism:11.53,birthday:\"23/12/2019\",expiration:\"2020-05-01T04:46:15Z\", enabled: true},\n    {name:\"Ardyth\",surname:\"Epps\",email:\"aeppsu@msn.com\",gender:\"[[Female]]\",salary:\"878.75\",presenteeism:8.2,birthday:\"20/12/2019\",expiration:\"2019-06-13T03:59:08Z\", enabled: true}]"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "grid1_loadRecords"
+    }
+  ],
+  "model": [],
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "columns": [
+              {
+                "align": "left",
+                "bindText": "name",
+                "header": "[[Name]]",
+                "icon": "edit.svg",
+                "key": "name"
+              },
+              {
+                "align": "left",
+                "bindText": "surname",
+                "header": "[[Surname]]",
+                "icon": "edit.svg",
+                "key": "surname",
+                "recordActionKey": "edit"
+              },
+              {
+                "align": "left",
+                "bindText": "email",
+                "header": "[[Email]]",
+                "key": "email"
+              },
+              {
+                "align": "left",
+                "bindText": "gender",
+                "header": "[[Gender]]",
+                "key": "gender"
+              },
+              {
+                "align": "left",
+                "bindText": "salary",
+                "format": "Money",
+                "header": "[[Salary]]",
+                "key": "salary"
+              },
+              {
+                "align": "left",
+                "bindText": "presenteeism",
+                "format": "Percentaje",
+                "header": "[[Presenteeism]]",
+                "icon": "widget-check-box-group.svg",
+                "key": "presenteeism"
+              },
+              {
+                "align": "left",
+                "bindText": "birthday",
+                "format": "Date",
+                "header": "[[Birthday]]",
+                "key": "birthday"
+              },
+              {
+                "align": "left",
+                "bindText": "expiration",
+                "format": "DateTime",
+                "header": "[[Expiration]]",
+                "key": "expiration"
+              },
+              {
+                "align": "left",
+                "bindText": "enabled",
+                "header": "[[Enabled]]"
+              }
+            ],
+            "cssClass": "blz-border-radius blz-cast-shadow blz-area-default",
+            "icon": "widget-grid.svg",
+            "name": "grid1",
+            "recordActions": [
+              {
+                "icon": "edit.svg",
+                "key": "edit",
+                "text": "Edit"
+              },
+              {
+                "icon": "remove.svg",
+                "key": "remove",
+                "text": "Remove"
+              }
+            ],
+            "title": "[[Example]]",
+            "widget": "Grid"
+          }
+        ],
+        "cssClass": "blz-border-top blz-border-right blz-border-left blz-border-bottom blz-border-radius blz-cast-shadow blz-area-default",
+        "layout": "container"
+      }
+    ],
+    "cssClass": "blz-padding-top-large blz-padding-right-large blz-padding-left-large blz-padding-bottom-large blz-area-main",
+    "horizontalSeparation": "large",
+    "layout": "container",
+    "verticalSeparation": "large"
+  },
+  "routing": {
+    "path": "/grid"
+  },
+  "unused": []
+}

@@ -1,0 +1,67 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "Refresh",
+            "widgetName": "repeater1"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "main_init"
+    },
+    {
+      "algorithm": {
+        "parameters": [
+          {
+            "name": "args",
+            "type": "ArgsLoadRecords"
+          }
+        ],
+        "statements": [
+          {
+            "command": "Return",
+            "expression": "[\n    {\n        name: \"Fatima\",\n        gender: \"Female\",\n        id: \"1234\",\n        phone: \"31XXXXXX\",\n        location: \"Doha\"\n    },\n    {\n        name: \"Fahad\",\n        gender: \"Male\",\n        id: \"1234\",\n        phone: \"31XXXXXX\",\n        location: \"Doha\"\n    },\n    {\n        name: \"Syed\",\n        gender: \"Male\",\n        id: \"1234\",\n        phone: \"31XXXXXX\",\n        location: \"Doha\"\n    },\n    {\n        name: \"Marwa\",\n        gender: \"Female\",\n        id: \"1234\",\n        phone: \"31XXXXXX\",\n        location: \"Doha\"\n    },\n    {\n        name: \"Sunil\",\n        gender: \"Male\",\n        id: \"1234\",\n        phone: \"31XXXXXX\",\n        location: \"Doha\"\n    },\n    {\n        name: \"Maryam\",\n        gender: \"Female\",\n        id: \"1234\",\n        phone: \"31XXXXXX\",\n        location: \"Doha\"\n    },\n    {\n        name: \"Jassim\",\n        gender: \"Male\",\n        id: \"1234\",\n        phone: \"31XXXXXX\",\n        location: \"Doha\"\n    },\n    {\n        name: \"Noora\",\n        gender: \"Female\",\n        id: \"1234\",\n        phone: \"31XXXXXX\",\n        location: \"Doha\"\n    }\n]"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "repeater1_loadRecords"
+    }
+  ],
+  "model": [],
+  "root": {
+    "children": [
+      {
+        "cardBorder": true,
+        "cardCastShadow": true,
+        "cardSize": "quarter",
+        "cssClass": "blz-area-default",
+        "disableSelection": true,
+        "horizontalSeparation": "large",
+        "icon": "widget-repeater.svg",
+        "name": "repeater1",
+        "title": "[[Example]]",
+        "uiComponentBinding": {
+          "data": "{record}"
+        },
+        "uiComponentName": "CmpCardSaleAssociate",
+        "verticalSeparation": "large",
+        "widget": "Repeater"
+      }
+    ],
+    "cssClass": "blz-padding-top-large blz-padding-right-large blz-padding-left-large blz-padding-bottom-large blz-area-default",
+    "horizontalSeparation": "large",
+    "layout": "container",
+    "verticalSeparation": "large"
+  },
+  "routing": {
+    "path": "/cards"
+  },
+  "unused": []
+}

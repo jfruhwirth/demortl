@@ -1,0 +1,68 @@
+[
+  {
+    "children": [],
+    "icon": "widget-repeater.svg",
+    "text": "[[Cards]]",
+    "uiComponentName": "CmpSalesAssociatesRepeater"
+  },
+  {
+    "children": [],
+    "icon": "widget-grid.svg",
+    "text": "[[SimpleGrid]]",
+    "uiComponentName": "CmpGrid"
+  },
+  {
+    "children": [],
+    "icon": "widget-autocomplete.svg",
+    "text": "[[Autocomplete]]",
+    "uiComponentName": "CmpWip"
+  },
+  {
+    "children": [],
+    "icon": "widget-button.svg",
+    "text": "[[Button]]",
+    "uiComponentName": "CmpWip"
+  },
+  {
+    "children": [],
+    "icon": "widget-check-box.svg",
+    "text": "[[CheckBox]]",
+    "uiComponentName": "CmpWip"
+  },
+  {
+    "children": [],
+    "icon": "widget-combo-box.svg",
+    "text": "[[ComboBox]]",
+    "uiComponentName": "CmpWip"
+  },
+  {
+    "children": [],
+    "icon": "widget-date-box.svg",
+    "text": "[[DateBox]]",
+    "uiComponentName": "CmpWip"
+  },
+  {
+    "children": [],
+    "icon": "widget-html-renderer.svg",
+    "text": "[[HtmlRenderer]]",
+    "uiComponentName": "CmpWip"
+  },
+  {
+    "children": [],
+    "icon": "widget-stepper.svg",
+    "text": "[[Stepper]]",
+    "uiComponentName": "CmpWip"
+  },
+  {
+    "children": [],
+    "icon": "widget-timeline.svg",
+    "text": "[[Timeline]]",
+    "uiComponentName": "CmpWip"
+  },
+  {
+    "children": [],
+    "icon": "widget-tree.svg",
+    "text": "[[Tree]]",
+    "uiComponentName": "CmpWip"
+  }
+]

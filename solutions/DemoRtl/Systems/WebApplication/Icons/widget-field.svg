@@ -1,0 +1,20 @@
+<svg
+        id="root"
+        version="1.1"
+        viewBox="0 0 64 64"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+>
+
+    <g transform="matrix(1,0,0,1,-0.435861,0.00915233)">
+        <g transform="matrix(1.45071,0,0,1.45071,-15.2391,-5.69561)">
+            <text x="17.982px" y="30.206px" style="font-family:'Arial-BoldItalicMT', 'Arial', sans-serif;font-weight:700;font-style:italic;font-size:12px;">Field</text>
+        </g>
+        <g transform="matrix(1.76246,0,0,1.97803,-4.62513,24.4252)">
+            <text x="4.798px" y="6.926px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">{</text>
+        </g>
+        <g transform="matrix(-1.76246,0,0,1.97803,69.4968,24.4435)">
+            <text x="4.798px" y="6.926px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">{</text>
+        </g>
+    </g>
+</svg>

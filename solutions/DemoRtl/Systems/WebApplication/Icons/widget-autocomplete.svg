@@ -1,0 +1,14 @@
+<svg
+        id="root"
+        version="1.1"
+        viewBox="0 0 64 64"
+        fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <g>
+        <path d="M56,44.4L8,44.4C7.2,44.4 6.5,43.7 6.5,42.9C6.5,42.1 7.2,41.4 8,41.4L56,41.4C56.8,41.4 57.5,42.1 57.5,42.9C57.5,43.7 56.8,44.4 56,44.4ZM12.8,38.3L12.8,21C12.8,20.7 12.6,20.5 12.3,20.5C12,20.5 11.8,20.7 11.8,21L11.8,38.3C11.8,38.6 12,38.8 12.3,38.8C12.6,38.8 12.8,38.6 12.8,38.3Z" style="fill-rule:nonzero;"/>
+        <g transform="matrix(1.17971,0,0,1.17971,-7.42865,4.06872)">
+            <text x="19.359px" y="29.288px" style="font-family:'Arial-ItalicMT', 'Arial', sans-serif;font-style:italic;font-size:12px;">AUT<tspan x="43.142px " y="29.288px ">O</tspan></text>
+        </g>
+    </g>
+</svg>

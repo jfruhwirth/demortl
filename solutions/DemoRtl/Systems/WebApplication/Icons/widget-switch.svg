@@ -1,0 +1,13 @@
+<svg
+        id="root"
+        version="1.1"
+        viewBox="0 0 64 64"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <rect x="7.32" y="17.945" width="49.36" height="28.111" style="fill:none;stroke:black;stroke-width:2.33px;"/>
+    <g transform="matrix(1.32634,0,0,1.32634,-0.209592,-9.61279)">
+        <rect x="8.595" y="23.698" width="14.894" height="14.894"/>
+        <path d="M23.489,23.698L8.595,23.698L8.595,38.592L23.489,38.592L23.489,23.698ZM10.349,25.452L10.349,36.838L21.735,36.838L21.735,25.452L10.349,25.452Z"/>
+    </g>
+</svg>

@@ -1,0 +1,258 @@
+{
+  "dateFormat": "{dd}/{mm}/{yyyy}",
+  "decimalSymbol": ".",
+  "longDateFormat": "{weekDay} {d} {month}, {yyyy}",
+  "moneySymbol": "ر.ق",
+  "thousandsSeparator": ",",
+  "timeFormat": "{HH12}:{MM} {AMPM}",
+  "translations": [
+    {
+      "key": "AppTitle",
+      "value": "برهنة"
+    },
+    {
+      "key": "SimpleGrid",
+      "value": "جريد"
+    },
+    {
+      "key": "Name",
+      "value": "اسم"
+    },
+    {
+      "key": "Surname",
+      "value": "لقب"
+    },
+    {
+      "key": "Email",
+      "value": "البريد الإلكتروني"
+    },
+    {
+      "key": "Gender",
+      "value": "جنس تذكير أو تأنيث"
+    },
+    {
+      "key": "Salary",
+      "value": "راتب"
+    },
+    {
+      "key": "Presenteeism",
+      "value": "الحضور"
+    },
+    {
+      "key": "Birthday",
+      "value": "عيد الميلاد"
+    },
+    {
+      "key": "Expiration",
+      "value": "انتهاء الصلاحية"
+    },
+    {
+      "key": "Enabled",
+      "value": "ممكن"
+    },
+    {
+      "key": "Example",
+      "value": "مثال"
+    },
+    {
+      "key": "Female",
+      "value": "أنثى"
+    },
+    {
+      "key": "Male",
+      "value": "ذكر"
+    },
+    {
+      "key": "Sales",
+      "value": "مبيعات"
+    },
+    {
+      "key": "Information",
+      "value": "معلومة"
+    },
+    {
+      "key": "Edit",
+      "value": "تعديل"
+    },
+    {
+      "key": "Cards",
+      "value": "البطاقات"
+    },
+    {
+      "key": "Ok",
+      "value": "Ok"
+    },
+    {
+      "key": "Cancel",
+      "value": "Cancel"
+    },
+    {
+      "key": "Yes",
+      "value": "Yes"
+    },
+    {
+      "key": "No",
+      "value": "No"
+    },
+    {
+      "key": "Previous",
+      "value": "Previous"
+    },
+    {
+      "key": "Next",
+      "value": "Next"
+    },
+    {
+      "key": "Finish",
+      "value": "Finish"
+    },
+    {
+      "key": "AddFilter",
+      "value": "Add Filter"
+    },
+    {
+      "key": "RequiredField",
+      "value": "Required Field"
+    },
+    {
+      "key": "SelectAll",
+      "value": "Select All"
+    },
+    {
+      "key": "Unselect All",
+      "value": "Unselect All"
+    },
+    {
+      "key": "Sunday",
+      "value": "Sunday"
+    },
+    {
+      "key": "Monday",
+      "value": "Monday"
+    },
+    {
+      "key": "Tuesday",
+      "value": "Tuesday"
+    },
+    {
+      "key": "Wednesday",
+      "value": "Wednesday"
+    },
+    {
+      "key": "Thursday",
+      "value": "Thursday"
+    },
+    {
+      "key": "Friday",
+      "value": "Friday"
+    },
+    {
+      "key": "Saturday",
+      "value": "Saturday"
+    },
+    {
+      "key": "January",
+      "value": "January"
+    },
+    {
+      "key": "February",
+      "value": "February"
+    },
+    {
+      "key": "March",
+      "value": "March"
+    },
+    {
+      "key": "April",
+      "value": "April"
+    },
+    {
+      "key": "May",
+      "value": "May"
+    },
+    {
+      "key": "June",
+      "value": "June"
+    },
+    {
+      "key": "July",
+      "value": "July"
+    },
+    {
+      "key": "August",
+      "value": "August"
+    },
+    {
+      "key": "September",
+      "value": "September"
+    },
+    {
+      "key": "October",
+      "value": "October"
+    },
+    {
+      "key": "November",
+      "value": "November"
+    },
+    {
+      "key": "December",
+      "value": "December"
+    },
+    {
+      "key": "Records",
+      "value": "Records"
+    },
+    {
+      "key": "ShowMore",
+      "value": "Show More"
+    },
+    {
+      "key": "Search",
+      "value": "بحث"
+    },
+    {
+      "key": "Filters",
+      "value": "Filters"
+    },
+    {
+      "key": "Apply",
+      "value": "Apply"
+    },
+    {
+      "key": "Autocomplete",
+      "value": "الإكمال التلقائي"
+    },
+    {
+      "key": "Button",
+      "value": "زر"
+    },
+    {
+      "key": "CheckBox",
+      "value": "خانة الاختيار"
+    },
+    {
+      "key": "ComboBox",
+      "value": "صندوق التحرير"
+    },
+    {
+      "key": "DateBox",
+      "value": "تاريخ"
+    },
+    {
+      "key": "HtmlRenderer",
+      "value": "العارض"
+    },
+    {
+      "key": "Stepper",
+      "value": "السائر"
+    },
+    {
+      "key": "Timeline",
+      "value": "الجدول الزمني"
+    },
+    {
+      "key": "Tree",
+      "value": "شجرة"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "eventsAndFunctions": [],
+  "model": [],
+  "root": {
+    "children": [
+      {
+        "align": "center",
+        "color": "default",
+        "name": "label1",
+        "size": "x-large",
+        "text": "Coming Soon",
+        "widget": "Label"
+      }
+    ],
+    "cssClass": "blz-area-default",
+    "layout": "container"
+  },
+  "routing": {
+    "path": "/coming-soon"
+  },
+  "unused": []
+}
