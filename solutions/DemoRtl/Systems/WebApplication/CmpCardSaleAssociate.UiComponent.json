@@ -122,14 +122,6 @@
       },
       {
         "align": "left",
-        "attribute": {
-          "clickable": null,
-          "color": null,
-          "icon": "person.svg",
-          "name": "image1",
-          "securityOption": "",
-          "size": "xx-large"
-        },
         "dock": "next",
         "icon": "person.svg",
         "name": "image1",
@@ -242,7 +234,7 @@
                 "italic": true,
                 "name": "infoTab",
                 "size": "default",
-                "text": "معلومة",
+                "text": "معلومات",
                 "widget": "Label"
               }
             ],

@@ -8,7 +8,7 @@
   "translations": [
     {
       "key": "AppTitle",
-      "value": "برهنة"
+      "value": "عرض تجريبي"
     },
     {
       "key": "SimpleGrid",
@@ -16,11 +16,11 @@
     },
     {
       "key": "Name",
-      "value": "اسم"
+      "value": "الاسم"
     },
     {
       "key": "Surname",
-      "value": "لقب"
+      "value": "اللقب"
     },
     {
       "key": "Email",
@@ -28,15 +28,15 @@
     },
     {
       "key": "Gender",
-      "value": "جنس تذكير أو تأنيث"
+      "value": "الجنس"
     },
     {
       "key": "Salary",
-      "value": "راتب"
+      "value": "الراتب"
     },
     {
       "key": "Presenteeism",
-      "value": "الحضور"
+      "value": "عرض"
     },
     {
       "key": "Birthday",
@@ -48,7 +48,7 @@
     },
     {
       "key": "Enabled",
-      "value": "ممكن"
+      "value": "مفعل"
     },
     {
       "key": "Example",
@@ -68,7 +68,7 @@
     },
     {
       "key": "Information",
-      "value": "معلومة"
+      "value": "معلومات"
     },
     {
       "key": "Edit",
@@ -240,7 +240,7 @@
     },
     {
       "key": "HtmlRenderer",
-      "value": "العارض"
+      "value": "أعادة عرض"
     },
     {
       "key": "Stepper",
